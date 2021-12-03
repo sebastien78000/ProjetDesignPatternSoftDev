@@ -17,7 +17,7 @@ namespace ProjetDesignPatternSoftDev
         rueDeVaugirard,
         chance1,
         rueDeCourcelles,
-        avenueDeLaRépublique,
+        avenueDeLaRepublique,
         prison,
         boulevardDeLaVillette,
         compagnieDElectricite,
