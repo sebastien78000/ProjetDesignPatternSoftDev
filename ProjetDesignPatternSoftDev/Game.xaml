@@ -470,6 +470,135 @@
                     </TextBlock.LayoutTransform>
                 </TextBlock>
             </Grid>
+            <Grid Grid.Row="0" Grid.Column="1">
+                <Rectangle Width="1" Height="80" Fill="Black" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+                <Rectangle Width="1" Height="80" Fill="Black" HorizontalAlignment="Right" Margin="0 0 0 0" Panel.ZIndex="1"/>
+                <Rectangle Width="60" Height="2" Fill="Black" VerticalAlignment="Bottom" Margin="0 0 0 20" Panel.ZIndex="1"/>
+                <Rectangle Width="60" Height="2" Fill="Black" VerticalAlignment="Bottom" Margin="0 0 0 -2" Panel.ZIndex="1"/>
+                <Rectangle Width="58" Height="20" Fill="#D93A96" VerticalAlignment="Bottom" Margin="0 0 0 0"/>
+                <Grid Width="60" HorizontalAlignment="Left">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="140 €"
+                               Foreground="Black"
+                               FontSize="16"
+                               FontWeight="Medium"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center">
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="180" />
+                            </TextBlock.LayoutTransform>
+                        </TextBlock>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBlock Text="Boulevard de La Vilette"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               Foreground="Black"
+                               FontSize="8"
+                               FontWeight="Heavy"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center">
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="180" />
+                            </TextBlock.LayoutTransform>
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="0" Grid.Column="3">
+                <Rectangle Width="1" Height="80" Fill="Black" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+                <Rectangle Width="1" Height="80" Fill="Black" HorizontalAlignment="Right" Margin="0 0 0 0" Panel.ZIndex="1"/>
+                <Rectangle Width="60" Height="2" Fill="Black" VerticalAlignment="Bottom" Margin="0 0 0 20" Panel.ZIndex="1"/>
+                <Rectangle Width="60" Height="2" Fill="Black" VerticalAlignment="Bottom" Margin="0 0 0 -2" Panel.ZIndex="1"/>
+                <Rectangle Width="58" Height="20" Fill="#D93A96" VerticalAlignment="Bottom" Margin="0 0 0 0"/>
+                <Grid Width="60" HorizontalAlignment="Left">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="140 €"
+                               Foreground="Black"
+                               FontSize="16"
+                               FontWeight="Medium"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center">
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="180" />
+                            </TextBlock.LayoutTransform>
+                        </TextBlock>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBlock Text="Avenue de Neuilly"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               Foreground="Black"
+                               FontSize="8"
+                               FontWeight="Heavy"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center">
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="180" />
+                            </TextBlock.LayoutTransform>
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid Grid.Row="0" Grid.Column="4">
+                <Rectangle Width="1" Height="80" Fill="Black" HorizontalAlignment="Left" Margin="0 0 0 0"/>
+                <Rectangle Width="1" Height="80" Fill="Black" HorizontalAlignment="Right" Margin="0 0 0 0" Panel.ZIndex="1"/>
+                <Rectangle Width="60" Height="2" Fill="Black" VerticalAlignment="Bottom" Margin="0 0 0 20" Panel.ZIndex="1"/>
+                <Rectangle Width="60" Height="2" Fill="Black" VerticalAlignment="Bottom" Margin="0 0 0 -2" Panel.ZIndex="1"/>
+                <Rectangle Width="58" Height="20" Fill="#D93A96" VerticalAlignment="Bottom" Margin="0 0 0 0"/>
+                <Grid Width="60" HorizontalAlignment="Left">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <TextBlock Text="160 €"
+                               Foreground="Black"
+                               FontSize="16"
+                               FontWeight="Medium"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center">
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="180" />
+                            </TextBlock.LayoutTransform>
+                        </TextBlock>
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBlock Text="Rue de Paradis"
+                               TextWrapping="Wrap"
+                               TextAlignment="Center"
+                               Foreground="Black"
+                               FontSize="8"
+                               FontWeight="Heavy"
+                               VerticalAlignment="Center"
+                               HorizontalAlignment="Center">
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="180" />
+                            </TextBlock.LayoutTransform>
+                        </TextBlock>
+                    </Grid>
+                </Grid>
+            </Grid>
         </Grid>
     </Grid>
 </Page>
