@@ -66,6 +66,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Board.cs" />
     <Compile Include="Case.cs" />
     <Compile Include="Dice.cs" />
     <Compile Include="MainWindow.xaml.cs">
@@ -75,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Player.cs" />
+    <Compile Include="nameCase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
