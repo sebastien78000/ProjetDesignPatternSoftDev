@@ -10,13 +10,25 @@ namespace ProjetDesignPatternSoftDev
     {
         string name;
         int index;
-        string colour;
 
-        public Case(string name, int index, string colour)
+        public Case(string name, int index)
         {
             this.name = name;
             this.index = index;
-            this.colour = colour;
         }
+
+        public string Name
+        {
+            get{ return this.name;}
+            set{this.name = value;}
+        }
+
+        public int Index
+        {
+            get{ return this.index;}
+            set{this.index = value;}
+        }
+
+
     }
 }
