@@ -16,26 +16,13 @@ using System.Windows.Shapes;
 namespace ProjetDesignPatternSoftDev
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour Game.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Game : Page
     {
-        public MainWindow()
+        public Game()
         {
             InitializeComponent();
-            Main.NavigationService.Navigate(new Game());
-        }
-
-        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.LeftButton == MouseButtonState.Pressed)
-            {
-                DragMove();
-            }
-        }
-        private void ButtonClose_Click(object sender, RoutedEventArgs e)
-        {
-            Close();
         }
     }
 }
