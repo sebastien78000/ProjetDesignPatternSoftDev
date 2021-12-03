@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 namespace ProjetDesignPatternSoftDev
 {
 
-    public class Board
+    public sealed class Board
     {
         List<Case> boardList = new List<Case>();
 
-        public Board()
+        private Board()
         {
             for (int i=0;i<40;i++)
             {
@@ -21,6 +21,16 @@ namespace ProjetDesignPatternSoftDev
                 boardList.Add(cases);
             }
             
+        }
+        private static Board _instance;
+
+        public static Board GetInstance()
+        {
+            if (_instance == null)
+            {
+                _instance = new Board();
+            }
+            return _instance;
         }
 
         public List<Case> BoardList
