@@ -17,7 +17,7 @@ namespace ProjetDesignPatternSoftDev
             value[1] = dice.Next(1, 7);
         }
 
-        static public int[] Value { get; }
+        static public int[] Value { get => value; }
 
     }
 }
