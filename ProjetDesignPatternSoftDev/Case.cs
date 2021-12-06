@@ -19,14 +19,14 @@ namespace ProjetDesignPatternSoftDev
 
         public string Name
         {
-            get{ return this.name;}
-            set{this.name = value;}
+            get { return this.name; }
+            set { this.name = value; }
         }
 
         public int Index
         {
-            get{ return this.index;}
-            set{this.index = value;}
+            get { return this.index; }
+            set { this.index = value; }
         }
 
 

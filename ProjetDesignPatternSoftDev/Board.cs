@@ -13,14 +13,14 @@ namespace ProjetDesignPatternSoftDev
 
         private Board()
         {
-            for (int i=0;i<40;i++)
+            for (int i = 0; i < 40; i++)
             {
                 nameCase recup = (nameCase)i;
                 string temp = recup.ToString();
                 Case cases = new Case(temp, i);
                 boardList.Add(cases);
             }
-            
+
         }
         private static Board _instance;
 
@@ -39,5 +39,5 @@ namespace ProjetDesignPatternSoftDev
             set { this.boardList = value; }
         }
     }
-    
+
 }

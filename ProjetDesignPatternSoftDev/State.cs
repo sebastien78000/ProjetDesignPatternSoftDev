@@ -19,8 +19,9 @@ namespace ProjetDesignPatternSoftDev
         public int Counter
         {
             get { return counter; }
+            set { counter = value; }
         }
 
-        public abstract bool Move();
+        public abstract void Move();
     }
 }

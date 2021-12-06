@@ -17,15 +17,22 @@ namespace ProjetDesignPatternSoftDev
             this.counter = 0;
             this.p = player;
         }
-        public override bool Move()
+        public override void Move()
         {
             Dice.Roll();
-            int[] actualVal = Dice.Value;
-            if (actualVal[0] == actualVal[1])
-            {
+            counter++;
+            StateChangeCheck();
+            p.ReRoll = false;
+        }
 
+        public void StateChangeCheck()
+        {
+            if (counter >= 3 || Dice.SameVal)
+            {
+                p.State = new StateFree(this);
+                p.Position = p.Position + Dice.Value[0] + Dice.Value[1];
             }
-            return true;
         }
     }
+
 }
