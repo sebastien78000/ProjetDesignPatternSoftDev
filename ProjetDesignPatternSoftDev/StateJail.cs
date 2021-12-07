@@ -30,7 +30,15 @@ namespace ProjetDesignPatternSoftDev
             if (counter >= 3 || Dice.SameVal)
             {
                 p.State = new StateFree(this);
-                p.Position = p.Position + Dice.Value[0] + Dice.Value[1];
+                int pos = p.Position + Dice.Value[0] + Dice.Value[1];
+                if (pos > 40)
+                {
+                    p.Position = pos - 40;
+                }
+                else
+                {
+                    p.Position = pos;
+                }
             }
         }
     }

@@ -18,7 +18,7 @@ namespace ProjetDesignPatternSoftDev
         }
 
         static public int[] Value { get => value; }
-        static public bool SameVal { get => Value[0] == Value[1]; }
+        static public bool SameVal { get => Dice.Value[0] == Dice.Value[1]; }
 
     }
 }
