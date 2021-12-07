@@ -1,15 +1,14 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ProjetDesignPatternSoftDev;
 using System;
 
 namespace UnitTest_Monopl
 {
     [TestClass]
-    public class UnitTest1
+    public class TestStateFree
     {
         [TestMethod]
         public void TestMethod1()
-        {            
+        {
         }
     }
 }
