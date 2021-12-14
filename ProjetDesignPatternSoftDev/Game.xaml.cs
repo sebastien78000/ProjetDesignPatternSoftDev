@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using ProjetDesignPatternSoftDev.Dice;
 
 namespace ProjetDesignPatternSoftDev
 {
@@ -26,6 +27,7 @@ namespace ProjetDesignPatternSoftDev
         }
         private void ButtonRoll_Click(object sender, RoutedEventArgs e)
         {
+            
             UpdateDice(1, 3);
             UpdateDice(2, 5);
             player1box.Opacity = 1;
