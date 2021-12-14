@@ -27,6 +27,7 @@ namespace ProjetDesignPatternSoftDev
                 counter++;
                 p.ReRoll = true;
             }
+            else { counter = 0; }
             StateChangeCheck(potentialPos);
         }
 
@@ -35,7 +36,7 @@ namespace ProjetDesignPatternSoftDev
             if (counter >= 3 || pos == 30)
             {
                 p.State = new StateJail(this);
-                p.Position = 30;
+                p.Position = 10;
                 p.ReRoll = false;
             }
             else
