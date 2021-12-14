@@ -23,6 +23,19 @@ namespace ProjetDesignPatternSoftDev
         public MainWindow()
         {
             InitializeComponent();
+            Main.NavigationService.Navigate(new Game());
+        }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+            {
+                DragMove();
+            }
+        }
+        private void ButtonClose_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
