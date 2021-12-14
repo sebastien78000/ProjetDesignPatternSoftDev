@@ -44,6 +44,7 @@ namespace ProjetDesignPatternSoftDev
                 if (pos > 40)
                 {
                     p.Position = pos - 40;
+                    p.NbLap ++;
                 }
                 else
                 {

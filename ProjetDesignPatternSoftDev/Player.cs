@@ -13,6 +13,7 @@ namespace ProjetDesignPatternSoftDev
         int token;
         bool reRoll;
         State state;
+        int nbLap;
 
         public Player(string name, int token)
         {
@@ -20,6 +21,7 @@ namespace ProjetDesignPatternSoftDev
             this.token = token;
             this.state = new StateFree(this);
             this.position = 0;
+            this.nbLap = 0;
             this.reRoll = true;
         }
         public State State
@@ -41,6 +43,14 @@ namespace ProjetDesignPatternSoftDev
             set
             {
                 position = value;
+            }
+        }
+        public int NbLap
+        {
+            get { return nbLap; }
+            set
+            {
+                nbLap = value;
             }
         }
 
